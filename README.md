@@ -14,7 +14,9 @@ UID: 117517958
 
 Project 3, Phase 1: Implementation of A Star Algorithm for a Rigid Body Robot
 
-GitHub Link: https://github.com/roboticistjoseph/a_star_algorithm
+GitHub Links: 
+https://github.com/roboticistjoseph/Path_Planning_using_A_Star_Algorithm
+https://github.com/bharadwajch123/A-star-path-planning-for-rigid-robot
 
 Video Drive Link: https://drive.google.com/drive/folders/1o5HvvbLppkN7Pmss0JQCHE8xHmnWHCw_?usp=sharing
 
@@ -33,7 +35,7 @@ P.S. The visualization of the plotting is not smooth in spyder or Visual Studio.
 Instructions to Run the Code:
 
 To get the Output (without Visualization)
-- Open the 'astar-pathplanning-Joseph-Katakam.py' file in any IDE. (I used PyCharm)
+- Open the 'astar-pathplanning-Joseph-Katakam_&_Bharadwaj_Chukkala.py' file in any IDE. (I used PyCharm)
 - Run the Program
 - In the Console, the program asks for:
 |-- The Obstacle Clearance and Robot Radius
@@ -43,14 +45,14 @@ To get the Output (without Visualization)
 - The Output Plot with planned Path should be Visible.
 
 To get the Output (with Visualization)
-- Open the 'astar-pathplanning-Joseph-Katakam.py' file in any IDE. (I used PyCharm)
+- Open the 'astar-pathplanning-Joseph-Katakam_&_Bharadwaj_Chukkala.py' file in any IDE. (I used PyCharm)
 - UnComment the line used for Visualization i.e. '309', which says- "plt.pause(0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)"
 - Run the Program
 - In the Console, the program asks for:
 |-- The Obstacle Clearance and Robot Radius
 |-- Robot Step Size and 
 '-- The x and y coordinates of Start and Goal Node. 
-- Enter as prompted. Ex: Clearance: 5; Robot Radius: 10; Step size: 1; Start: 50 50; Initial Theta: 30; Goal: 150 150; Final Theta: 30.
+- Enter as prompted. Ex: Clearance: 5; Robot Radius: 10; Step size: 1; Start: 50, 50; Initial Theta: 30; Goal: 150, 150; Final Theta: 30.
 - The Output Plot with planned Path should be Visible.
 
 Understanding the Output Plot
